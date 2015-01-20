@@ -29,20 +29,20 @@ var volunteersList = [];
 volunteersList.push(volunteersName, volunteersPhone, volunteersStreet);
 
 var victimsLog = "Victims: " + victims + "\n" +
-				"Volunteers: " + volunteers + "\n";
+				"Volunteers: " + volunteers + "\n" +
+				"Victims\n";
 
-victimsLog += "Victims:\n";
 
-for (i = 0; i < victims; i++) {
-	victimsLog += " Name: "+ victimName + ", " +
+for (var i = 0; i < victims; i++) {
+	victimsLog += "Name: "+ victimName + ", " +
 				"Phone: " + victimPhone + ", " +
 				"Street: " + victimStreet + "\n";
 			}
 
 victimsLog += "Volunteers:\n";
 
-for (i = 0; i < volunteers; i++) {
-	victimsLog += " Name: "+ volunteersName + ", " +
+for (var i = 0; i < volunteers; i++) {
+	victimsLog += "Name: "+ volunteersName + ", " +
 				"Phone: " + volunteersPhone + ", " +
 				"Street: " + volunteersStreet + "\n";
 			}	
